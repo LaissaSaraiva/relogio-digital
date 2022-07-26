@@ -2,12 +2,13 @@
   --cor-preto-opaco: rgba(0, 0, 0, 0.8);
   --cor-secundaria: rgb(255, 248, 220);
   --cor-links: rgb(128, 0, 128);
+  --cor-links-secundaria: rgb(253, 176, 151);
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -74,4 +75,8 @@ footer {
 footer a {
   text-decoration: none;
   color: var(--cor-links);
+}
+
+footer a:hover {
+  color: var(--cor-links-secundaria);
 }
