@@ -5,23 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Relógio Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="icon" href="./assets/images/favicon.png" type="image/x-icon" />
   </head>
   <body>
     <main>
       <div class="relogio">
-        <div class="horas">
-          <span>00</span>
-          <span>Horas</span>
+        <div>
+          <span id="horas">00</span>
+          <span class="tempo">Horas</span>
         </div>
-        <div class="minutos">
-          <span>00</span>
-          <span>Minutos</span>
+        <div>
+          <span id="minutos">00</span>
+          <span class="tempo">Minutos</span>
         </div>
-        <div class="segundos">
-          <span>00</span>
-          <span>Segundos</span>
+        <div>
+          <span id="segundos">00</span>
+          <span class="tempo">Segundos</span>
         </div>
       </div>
     </main>
@@ -33,5 +39,6 @@
         >
       </p>
     </footer>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
