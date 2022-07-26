@@ -35,11 +35,6 @@ main {
   transition: 0.5s;
 }
 
-.relogio:hover {
-  width: 475px;
-  height: 175px;
-}
-
 .relogio div {
   display: flex;
   flex-direction: column;
@@ -63,22 +58,21 @@ main {
   font-size: 15px;
   font-weight: 500;
 }
- 
+
 .data {
-  margin: 20px 0 ;
+  margin: 20px 0;
 }
 
 .data p {
-  background-color:transparent;
+  background-color: transparent;
   border-radius: 5px;
-  box-shadow:5px 5px 15px var(--cor-preto-opaco);;
+  box-shadow: 5px 5px 15px var(--cor-preto-opaco);
   padding: 10px;
 
   color: var(--cor-secundaria);
   font-weight: 500;
   font-size: 29px;
-  text-shadow: 3px 3px 3px  var(--cor-preto-opaco);
-
+  text-shadow: 3px 3px 3px var(--cor-preto-opaco);
 }
 /* Rodapé */
 
@@ -106,6 +100,5 @@ footer a:hover {
     flex-direction: column;
     height: 400px;
     width: 170px;
-    margin-bottom: 30px;
   }
 }
