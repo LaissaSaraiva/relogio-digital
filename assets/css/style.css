@@ -63,6 +63,8 @@ main {
   font-weight: 500;
 }
 
+/* Rodapé */
+
 footer {
   height: 0;
   text-align: center;
@@ -79,4 +81,13 @@ footer a {
 
 footer a:hover {
   color: var(--cor-links-secundaria);
+}
+
+/* Responsividade */
+@media (max-width: 425px) {
+  .relogio {
+    flex-direction: column;
+    height: 470px;
+    width: 170px;
+  }
 }
