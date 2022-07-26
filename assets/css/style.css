@@ -15,6 +15,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   height: 100vh;
   background-image: url("../images/vincentiu-solomon.jpg");
   background-size: cover;
@@ -62,7 +63,23 @@ main {
   font-size: 15px;
   font-weight: 500;
 }
+ 
+.data {
+  margin: 20px 0 ;
+}
 
+.data p {
+  background-color:transparent;
+  border-radius: 5px;
+  box-shadow:5px 5px 15px var(--cor-preto-opaco);;
+  padding: 10px;
+
+  color: var(--cor-secundaria);
+  font-weight: 500;
+  font-size: 29px;
+  text-shadow: 3px 3px 3px  var(--cor-preto-opaco);
+
+}
 /* Rodapé */
 
 footer {
@@ -87,7 +104,8 @@ footer a:hover {
 @media (max-width: 425px) {
   .relogio {
     flex-direction: column;
-    height: 470px;
+    height: 400px;
     width: 170px;
+    margin-bottom: 30px;
   }
 }
